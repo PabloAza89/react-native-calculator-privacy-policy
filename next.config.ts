@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: '/react-native-calculator-privacy-policy',
+  devIndicators: { appIsrStatus: false },
+  output: "export",
+  reactStrictMode: true
 };
 
 export default nextConfig;

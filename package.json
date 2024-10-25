@@ -1,5 +1,6 @@
 {
   "name": "react-native-calculator-privacy-policy",
+  "homepage": "https://pabloaza89.github.io/react-native-calculator-privacy-policy",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,16 +10,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.0.1",
     "react": "19.0.0-rc-69d4b800-20241021",
-    "react-dom": "19.0.0-rc-69d4b800-20241021",
-    "next": "15.0.1"
+    "react-dom": "19.0.0-rc-69d4b800-20241021"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "15.0.1"
+    "eslint-config-next": "15.0.1",
+    "gh-pages": "^6.2.0",
+    "typescript": "^5"
   }
 }
