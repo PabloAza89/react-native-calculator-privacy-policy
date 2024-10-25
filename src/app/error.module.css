@@ -1,0 +1,39 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: var(--errorBackground);
+  color: var(--errorColor);
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.left {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding: 0 23px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  vertical-align: top;
+  line-height: 49px;
+  border-right: 1px solid var(--errorBorder);
+}
+
+.right {
+  display:inline-block;
+}
+
+.rightInner {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 49px;
+  margin: 0;
+}
