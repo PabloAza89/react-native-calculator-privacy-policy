@@ -2,18 +2,18 @@ import s from "./error.module.css";
 
 const Error = () => {
   return (
-    <div className={s.background}>
-      <div>
-        <h1 className={s.left}>
-          404
-        </h1>
-        <div className={s.right}>
-          <h2 className={s.rightInner}>
-            This page could not be found.
-          </h2>
+    <div
+      className={s.background}
+      children={ // eslint-disable-line
+        <div>
+          <h1 className={s.left} children={'404'} /* eslint-disable-line */ />
+          <div
+            className={s.right}
+            children={ <h2 className={s.rightInner} children={'This page could not be found.'} /> } // eslint-disable-line
+          />
         </div>
-      </div>
-    </div>
+      }
+    />
   )
 }
 
