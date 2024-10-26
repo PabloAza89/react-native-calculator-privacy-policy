@@ -2,6 +2,9 @@
   --errorBackground: #ffffff;
   --errorColor: #000000;
   --errorBorder: rgba(0, 0, 0, .3);
+  --pageBackground: #ffffff;
+  --pageColor: #000000;
+  --pageBorder: #eeeeee;
 }
 
 @media (prefers-color-scheme:dark) {
@@ -9,6 +12,9 @@
     --errorBackground: #000000;
     --errorColor: #ffffff;
     --errorBorder: rgba(255, 255, 255, .3);
+    --pageBackground: #000000;
+    --pageColor: #ffffff;
+    --pageBorder: #292929;
   }
 }
 
